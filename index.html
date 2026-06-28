@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Mahmoud Adel – Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;/&gt;</span>
+        <span class="logo-text">MA.</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn-hire">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-img"></div>
+    <div class="stars-bg"></div>
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero-title">
+          Mahmoud adel<br />
+          <span class="text-cyan">Elsayed</span>
+        </h1>
+        <p class="hero-subtitle">
+          Frontend Developer · React · Bootstrap · UI/UX Enthusiast
+        </p>
+        <p class="hero-desc">
+          Crafting beautiful, responsive, and performant web interfaces with modern frontend technologies.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="https://drive.google.com/file/d/1W4JZJbjX58t9VPiock5Is952ECfvK5U5/view?usp=drivesdk" class="btn-secondary" target="_blank">Download CV</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/mahmoud123hb" class="social-icon" aria-label="GitHub" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/mahmoud-adel-7528bb375" class="social-icon" aria-label="LinkedIn" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="mahmoudadel123hb@gmail.com" class="social-icon" aria-label="Email" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a href="https://www.facebook.com/share/1FQ74UFuap/" class="social-icon" aria-label="Facebook" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">mahmoud@dev ~ terminal</span>
+          </div>
+          <div class="terminal-body">
+            <p class="terminal-line"><span class="t-dollar">$</span> initializing portfolio...</p>
+            <p class="terminal-line"><span class="t-dollar">$</span> loading skills: [React, Bootstrap CSS, JavaScript]</p>
+            <p class="terminal-line"><span class="t-dollar">$</span> status: Building beautiful UIs with code.</p>
+            <p class="terminal-line ready"><span class="t-dollar">$</span> ready ✓</p>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <span class="stat-num">20+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2+</span>
+            <span class="stat-label">Years Exp.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+  <section class="section about-section" id="about">
+    <div class="stars-bg"></div>
+    <div class="container">
+      <div class="section-eyebrow">// about me</div>
+      <h2 class="section-title">Who I Am &amp; <span class="text-cyan">What I Do</span></h2>
+      <div class="about-grid">
+        <div class="about-photo-wrap">
+          <!-- Replace src with your actual photo -->
+          <img src="me.jpg" alt="Hussien Sherif Mohammed" class="about-photo" />
+          <div class="about-photo-overlay">
+            <h3 class="overlay-name">Mahmoud adel</h3>
+            <p class="overlay-role text-cyan">Frontend Developer</p>
+          </div>
+          <div class="about-bio-card">
+            <p class="about-bio">A passionate frontend developer who loves turning designs into pixel-perfect, responsive web experiences. I build modern, accessible interfaces that users love.</p>
+            <!-- <div class="about-tags">
+              <span class="about-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg> React &amp; Next.js</span>
+              <span class="about-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg> TypeScript</span>
+              <span class="about-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> Tailwind CSS</span>
+              <span class="about-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg> UI/UX Design</span>
+            </div> -->
+          </div>
+          <br>
+        </div>
+        <div class="about-timeline-wrap">
+          <p class="about-intro">My journey spans across academia, freelance projects, and open-source contributions — always driven by a passion for crafting beautiful, user-friendly web experiences.</p>
+          <div class="timeline">
+              <div class="timeline-item" data-color="cyan">
+              <div class="tl-dot cyan-dot"></div>
+              <div class="tl-card">
+                <span class="tl-date">2025 – Present</span>
+                <h4 class="tl-title">Bachelor of Technology in Information Technology</h4>
+                <p class="tl-org text-cyan">University of Technology</p>
+                <p class="tl-desc">Focusing on web technologies, software engineering, and modern frontend development. Active in open-source and hackathons.</p>
+              </div>
+            </div>
+            <div class="timeline-item" data-color="purple">
+              <div class="tl-dot purple-dot"></div>
+              <div class="tl-card">
+                <span class="tl-date">2025 – Present</span>
+                <h4 class="tl-title">Frontend Developer</h4>
+                <p class="tl-org" style="color:#a855f7;">Freelance / Projects</p>
+                <p class="tl-desc">Building responsive web applications using Html , Bootstrap CSS and JS with a focus on performance and accessibility.</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item" data-color="purple">
+              <div class="tl-dot purple-dot"></div>
+              <div class="tl-card">
+                <span class="tl-date">2026</span>
+                <h4 class="tl-title">Open Source Contributor</h4>
+                <p class="tl-org" style="color:#a855f7;">Community Projects</p>
+                <p class="tl-desc">Contributed to open-source frontend projects, improving component libraries and building accessible UI patterns.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ SKILLS ═══════════════════════════ -->
+  <section class="section skills-section" id="skills">
+    <div class="stars-bg"></div>
+    <div class="container">
+      <div class="section-eyebrow">// expertise</div>
+      <h2 class="section-title">My Tech <span class="text-cyan">Arsenal</span></h2>
+      <div class="skills-layout">
+        <div class="skills-categories">
+          <div class="skill-cat active" data-cat="programming">
+            <span class="cat-dot" style="background:#00d4ff;"></span>
+            Languages
+            <span class="cat-count">4</span>
+          </div>
+          <div class="skill-cat" data-cat="embedded">
+            <span class="cat-dot" style="background:#a855f7;"></span>
+            Frameworks
+            <span class="cat-count">4</span>
+          </div>
+          <div class="skill-cat" data-cat="iot">
+            <span class="cat-dot" style="background:#3b82f6;"></span>
+            Styling
+            <span class="cat-count">3</span>
+          </div>
+          <div class="skill-cat" data-cat="web">
+            <span class="cat-dot" style="background:#22c55e;"></span>
+            Libraries
+            <span class="cat-count">2</span>
+          </div>
+          <div class="skill-cat" data-cat="mobile">
+            <span class="cat-dot" style="background:#f59e0b;"></span>
+            Responsive
+            <span class="cat-count">1</span>
+          </div>
+          <div class="skill-cat" data-cat="tools">
+            <span class="cat-dot" style="background:#ef4444;"></span>
+            Tools
+            <span class="cat-count">5</span>
+          </div>
+        </div>
+        <div class="skills-detail">
+          <div class="skill-panel active" id="panel-programming">
+            <div class="panel-header">
+              <span class="panel-dot" style="background:#00d4ff;"></span>
+              <div>
+                <h3 class="panel-title">Languages</h3>
+                <p class="panel-sub">4 technologies</p>
+              </div>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>JavaScript (ES6+)</span><span>92%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="92"></div></div>
+              </div>
+             
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>HTML5</span><span>95%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="95"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>CSS3</span><span>90%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="90"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-panel" id="panel-embedded">
+            <div class="panel-header">
+              <span class="panel-dot" style="background:#a855f7;"></span>
+              <div>
+                <h3 class="panel-title">Frameworks</h3>
+                <p class="panel-sub">4 technologies</p>
+              </div>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>React</span><span>92%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="92"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>Next.js</span><span>85%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="85"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>Redux Toolkit</span><span>80%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="80"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>Bootstrap</span><span>82%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="82"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-panel" id="panel-iot">
+            <div class="panel-header">
+              <span class="panel-dot" style="background:#3b82f6;"></span>
+              <div>
+                <h3 class="panel-title">Styling</h3>
+                <p class="panel-sub">3 technologies</p>
+              </div>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>Tailwind CSS</span><span>90%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="90"></div></div>
+              </div>
+              
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>Figma</span><span>78%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="78"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-panel" id="panel-web">
+            <div class="panel-header">
+              <span class="panel-dot" style="background:#22c55e;"></span>
+              <div>
+                <h3 class="panel-title">Libraries</h3>
+                <p class="panel-sub">2 technologies</p>
+              </div>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>REST APIs</span><span>85%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="85"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>Vite</span><span>80%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="80"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-panel" id="panel-mobile">
+            <div class="panel-header">
+              <span class="panel-dot" style="background:#f59e0b;"></span>
+              <div>
+                <h3 class="panel-title">Responsive</h3>
+                <p class="panel-sub">1 technology</p>
+              </div>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>Responsive Design</span><span>88%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="88"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-panel" id="panel-tools">
+            <div class="panel-header">
+              <span class="panel-dot" style="background:#ef4444;"></span>
+              <div>
+                <h3 class="panel-title">Tools</h3>
+                <p class="panel-sub">5 technologies</p>
+              </div>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>Git &amp; GitHub</span><span>90%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="90"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>VS Code</span><span>95%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="95"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="sb-label"><span>Chrome DevTools</span><span>85%</span></div>
+                <div class="sb-track"><div class="sb-fill" data-width="85"></div></div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Skills category pills row -->
+      <div class="skills-pills-row">
+        <div class="skill-pill active-pill">
+          <span class="pill-dot" style="background:#00d4ff;"></span>
+          Languages
+        </div>
+        <div class="skill-pill">
+          <span class="pill-dot" style="background:#a855f7;"></span>
+          Frameworks
+        </div>
+        <div class="skill-pill">
+          <span class="pill-dot" style="background:#3b82f6;"></span>
+          Styling
+        </div>
+        <div class="skill-pill">
+          <span class="pill-dot" style="background:#22c55e;"></span>
+          Libraries
+        </div>
+        <div class="skill-pill">
+          <span class="pill-dot" style="background:#f59e0b;"></span>
+          Responsive
+        </div>
+        <div class="skill-pill">
+          <span class="pill-dot" style="background:#ef4444;"></span>
+          Tools
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
+  <section class="section projects-section" id="projects">
+    <div class="stars-bg"></div>
+    <div class="container">
+      <div class="section-eyebrow">// featured work</div>
+      <h2 class="section-title">Projects that <span class="text-cyan">Ship</span></h2>
+      <div class="proj-filters">
+        <button class="proj-filter active" data-filter="all">All</button>
+                <button class="proj-filter" data-filter="Portfolio">Portfolio</button>
+        <button class="proj-filter" data-filter="E-Commerce">E-Commerce</button>
+        <button class="proj-filter" data-filter="Landing Page">Landing Page</button>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+
+
+
+
+
+
+        <div class="proj-card" data-category="Portfolio">
+          <div class="proj-img-wrap">
+            <!-- Replace with actual project image -->
+            <img src="photo_2026-06-28_23-56-02.jpg" alt="E-Commerce Platform" class="proj-img" />
+            <span class="proj-badge robotics">Personal Portfolio </span>
+          </div>
+          <div class="proj-body">
+            <h3 class="proj-title">Personal Portfolio Website</h3>
+            <p class="proj-desc">Modern responsive portfolio showcasing my projects, technical skills, experience, and contact information with a downloadable resume and smooth user experience...</p>
+            <div class="proj-tags">
+              <span class="ptag">HTML</span>
+              <span class="ptag">js</span>
+              <span class="ptag">Bootstrap </span>
+            </div>
+            <div class="proj-actions">
+              <a href="#" class="paction">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="paction">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Demo
+              </a>
+              
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="proj-card" data-category="E-Commerce">
+          <div class="proj-img-wrap">
+            <img src="photo_2026-06-29_00-00-40.jpg" alt="Social Media Dashboard" class="proj-img" />
+            <span class="proj-badge robotics">E-Commerce</span>
+          </div>
+          <div class="proj-body">
+            <h3 class="proj-title">Menu Website</h3>
+            <p class="proj-desc">Modern digital restaurant menu with categorized dishes, detailed item descriptions, pricing, search and filtering, and a responsive design for a seamless browsing experience...</p>
+            <div class="proj-tags">
+               <span class="ptag">HTML</span>
+              <span class="ptag">js</span>
+              <span class="ptag">CSS </span>
+            </div>
+            <div class="proj-actions">
+              <a href="https://github.com/mahmoud123hb/Menu1.git" target="_blank" class="paction"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>GitHub</a>
+              <a href="https://mahmoud123hb.github.io/Menu1/" target="_blank" class="paction"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>Demo</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="proj-card" data-category="E-Commerce">
+          <div class="proj-img-wrap">
+            <img src="photo_2026-06-29_00-06-47.jpg" alt="Social Media Dashboard" class="proj-img" />
+            <span class="proj-badge robotics">E-Commerce</span>
+          </div>
+          <div class="proj-body">
+            <h3 class="proj-title">Menu Website</h3>
+            <p class="proj-desc">Modern digital restaurant menu with categorized dishes, detailed item descriptions, pricing, search and filtering, and a responsive design for a seamless browsing experience...</p>
+            <div class="proj-tags">
+               <span class="ptag">HTML</span>
+              <span class="ptag">js</span>
+              <span class="ptag">CSS </span>
+            </div>
+            <div class="proj-actions">
+              <a href="https://github.com/mahmoud123hb/restrant1.git" target="_blank" class="paction"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>GitHub</a>
+              <a href="https://mahmoud123hb.github.io/restrant1/" target="_blank" class="paction"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>Demo</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        
+        <div class="proj-card" data-category="Landing Page">
+          <div class="proj-img-wrap">
+            <img src="photo_2026-06-29_00-12-06.jpg" alt="Social Media Dashboard" class="proj-img" />
+            <span class="proj-badge robotics">Landing Page</span>
+          </div>
+          <div class="proj-body">
+            <h3 class="proj-title">Printing Company Landing Page</h3>
+            <p class="proj-desc">Professional landing page for a printing company featuring services, product highlights, customer testimonials, contact information, and a responsive design to generate leads and showcase printing solutions...</p>
+            <div class="proj-tags">
+               <span class="ptag">HTML</span>
+              <span class="ptag">js</span>
+              <span class="ptag">CSS </span>
+            </div>
+            <div class="proj-actions">
+              <a href="https://github.com/mahmoud123hb/Egyprint.git" target="_blank" class="paction"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>GitHub</a>
+              <a href="https://mahmoud123hb.github.io/Egyprint/" target="_blank" class="paction"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>Demo</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        
+        
+        <div class="proj-card" data-category="Landing Page">
+          <div class="proj-img-wrap">
+            <img src="photo_2026-06-29_00-14-51.jpg" alt="Social Media Dashboard" class="proj-img" />
+            <span class="proj-badge robotics">Landing Page</span>
+          </div>
+          <div class="proj-body">
+            <h3 class="proj-title">Car Showroom Landing Page</h3>
+            <p class="proj-desc">Modern landing page for a car dealership showcasing featured vehicles, exclusive offers, customer reviews, and contact information with a responsive design for a smooth browsing experience...</p>
+            <div class="proj-tags">
+               <span class="ptag">HTML</span>
+              <span class="ptag">js</span>
+              <span class="ptag">CSS </span>
+            </div>
+            <div class="proj-actions">
+              <a href="https://github.com/mahmoud123hb/AutoReviews.git" target="_blank" class="paction"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>GitHub</a>
+              <a href="https://mahmoud123hb.github.io/AutoReviews/" target="_blank" class="paction"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>Demo</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+
+
+
+
+
+        
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <!-- ═══════════════════════════ EXPERIENCE ═══════════════════════════ -->
+  <section class="section experience-section" id="experience">
+    <div class="stars-bg"></div>
+    <div class="container">
+      <div class="section-eyebrow">// career path</div>
+      <h2 class="section-title">Experience &amp; <span class="text-cyan">Education</span></h2>
+
+      <div class="exp-stats-row">
+        <div class="exp-stat-card">
+          <span class="exp-stat-num" style="color:#00d4ff;">25+</span>
+          <span class="exp-stat-label">Projects Built</span>
+        </div>
+        <div class="exp-stat-card">
+          <span class="exp-stat-num" style="color:#a855f7;">40+</span>
+          <span class="exp-stat-label">GitHub Repos</span>
+        </div>
+        <div class="exp-stat-card">
+          <span class="exp-stat-num" style="color:#3b82f6;">15+</span>
+          <span class="exp-stat-label">Technologies</span>
+        </div>
+        <div class="exp-stat-card">
+          <span class="exp-stat-num" style="color:#22c55e;">10+</span>
+          <span class="exp-stat-label">Happy Clients</span>
+        </div>
+      </div>
+
+      <div class="exp-timeline">
+        <div class="exp-line"></div>
+
+        
+
+  <!-- ═══════════════════════════ TOOLS & TECH ═══════════════════════════ -->
+  <section class="section tools-section">
+    <div class="stars-bg"></div>
+    <div class="container">
+      <div class="section-eyebrow">// tech ecosystem</div>
+      <h2 class="section-title">Tools &amp; <span class="text-cyan">Technologies</span></h2>
+      <div class="tech-icons-scroll">
+        <div class="tech-icons-track">
+          <div class="tech-icon-item" style="background:#1a2000; border-color:#f7df1e;">
+            <span class="ti-abbr" style="color:#f7df1e;"><img src="https://cdn.simpleicons.org/javascript/f7df1e" alt="JavaScript" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#0d2030; border-color:#3178c6;">
+            <span class="ti-abbr" style="color:#3178c6;"><img src="https://cdn.simpleicons.org/typescript/3178c6" alt="TypeScript" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#0d2030; border-color:#61dafb;">
+            <span class="ti-abbr" style="color:#61dafb;"><img src="https://cdn.simpleicons.org/react/61dafb" alt="React" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#10001a; border-color:#000000;">
+            <span class="ti-abbr" style="color:#ffffff;"><img src="https://cdn.simpleicons.org/nextdotjs/ffffff" alt="Next.js" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#001510; border-color:#38bdf8;">
+            <span class="ti-abbr" style="color:#38bdf8;"><img src="https://cdn.simpleicons.org/tailwindcss/38bdf8" alt="Tailwind CSS" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#0d1a0d; border-color:#f05032;">
+            <span class="ti-abbr" style="color:#f05032;"><img src="https://cdn.simpleicons.org/git/f05032" alt="Git" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#150015; border-color:#f24e1e;">
+            <span class="ti-abbr" style="color:#f24e1e;"><img src="https://cdn.simpleicons.org/figma/f24e1e" alt="Figma" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#000a1a; border-color:#007acc;">
+            <span class="ti-abbr" style="color:#007acc;"><img src="https://cdn.simpleicons.org/visualstudiocode/007acc" alt="VS Code" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#0d3349; border-color:#764abc;">
+            <span class="ti-abbr" style="color:#764abc;"><img src="https://cdn.simpleicons.org/redux/764abc" alt="Redux" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#1a2d1a; border-color:#cc6699;">
+            <span class="ti-abbr" style="color:#cc6699;"><img src="https://cdn.simpleicons.org/sass/cc6699" alt="Sass" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#1a2000; border-color:#7952b3;">
+            <span class="ti-abbr" style="color:#7952b3;"><img src="https://cdn.simpleicons.org/bootstrap/7952b3" alt="Bootstrap" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#001a00; border-color:#646cff;">
+            <span class="ti-abbr" style="color:#646cff;"><img src="https://cdn.simpleicons.org/vite/646cff" alt="Vite" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#100a00; border-color:#ffca28;">
+            <span class="ti-abbr" style="color:#ffca28;"><img src="https://cdn.simpleicons.org/firebase/ffca28" alt="Firebase" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#001015; border-color:#fcc624;">
+            <span class="ti-abbr" style="color:#fcc624;"><img src="https://cdn.simpleicons.org/linux/fcc624" alt="Linux" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#001a1a; border-color:#8b4cf7;">
+            <span class="ti-abbr" style="color:#8b4cf7;"><img src="https://cdn.simpleicons.org/mongodb/8b4cf7" alt="MongoDB" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#000a1a; border-color:#007acc;">
+            <span class="ti-abbr" style="color:#007acc;"><img src="https://cdn.simpleicons.org/docker/007acc" alt="Docker" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <div class="tech-icon-item" style="background:#10001a; border-color:#000000;">
+            <span class="ti-abbr" style="color:#ffffff;"><img src="https://cdn.simpleicons.org/npm/ffffff" alt="npm" style="width:28px;height:28px;display:block"></span>
+          </div>
+          <!-- Duplicate for seamless scroll -->
+          <div class="tech-icon-item" style="background:#1a2000; border-color:#f7df1e;"><span class="ti-abbr" style="color:#f7df1e;"><img src="https://cdn.simpleicons.org/javascript/f7df1e" alt="JavaScript" style="width:28px;height:28px;display:block"></span></div>
+          <div class="tech-icon-item" style="background:#0d2030; border-color:#3178c6;"><span class="ti-abbr" style="color:#3178c6;"><img src="https://cdn.simpleicons.org/typescript/3178c6" alt="TypeScript" style="width:28px;height:28px;display:block"></span></div>
+          <div class="tech-icon-item" style="background:#0d2030; border-color:#61dafb;"><span class="ti-abbr" style="color:#61dafb;"><img src="https://cdn.simpleicons.org/react/61dafb" alt="React" style="width:28px;height:28px;display:block"></span></div>
+          <div class="tech-icon-item" style="background:#10001a; border-color:#000000;"><span class="ti-abbr" style="color:#ffffff;"><img src="https://cdn.simpleicons.org/nextdotjs/ffffff" alt="Next.js" style="width:28px;height:28px;display:block"></span></div>
+          <div class="tech-icon-item" style="background:#001510; border-color:#38bdf8;"><span class="ti-abbr" style="color:#38bdf8;"><img src="https://cdn.simpleicons.org/tailwindcss/38bdf8" alt="Tailwind CSS" style="width:28px;height:28px;display:block"></span></div>
+          <div class="tech-icon-item" style="background:#0d1a0d; border-color:#f05032;"><span class="ti-abbr" style="color:#f05032;"><img src="https://cdn.simpleicons.org/git/f05032" alt="Git" style="width:28px;height:28px;display:block"></span></div>
+          <div class="tech-icon-item" style="background:#150015; border-color:#f24e1e;"><span class="ti-abbr" style="color:#f24e1e;"><img src="https://cdn.simpleicons.org/figma/f24e1e" alt="Figma" style="width:28px;height:28px;display:block"></span></div>
+          <div class="tech-icon-item" style="background:#000a1a; border-color:#007acc;"><span class="ti-abbr" style="color:#007acc;"><img src="https://cdn.simpleicons.org/visualstudiocode/007acc" alt="VS Code" style="width:28px;height:28px;display:block"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+  <section class="section contact-section" id="contact">
+    <div class="stars-bg"></div>
+    <div class="container">
+      <div class="section-eyebrow">// get in touch</div>
+      <h2 class="section-title">Let's <span class="text-cyan">Connect</span></h2>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p class="contact-desc">Looking for a frontend developer to bring your designs to life? Have a project or collaboration in mind? Let's build something great together.</p>
+          <div class="contact-info-list">
+            <div class="contact-info-card">
+              <div class="ci-icon" style="background:rgba(0,212,255,0.15); border-color:rgba(0,212,255,0.3);">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00d4ff" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <p class="ci-label">Email</p>
+                <p class="ci-value">mahmoudadel123hb@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="ci-icon" style="background:rgba(168,85,247,0.15); border-color:rgba(168,85,247,0.3);">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <p class="ci-label">Phone</p>
+                <p class="ci-value">+201143295492</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="ci-icon" style="background:rgba(34,197,94,0.15); border-color:rgba(34,197,94,0.3);">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <p class="ci-label">Location</p>
+                <p class="ci-value">Egypt <span class="flag">EG</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <p class="find-me">Find me on</p>
+            <div class="contact-social-row">
+              <a href="https://github.com/mahmoud123hb" class="social-icon" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+              <a href="https://www.linkedin.com/in/mahmoud-adel-7528bb375" class="social-icon" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+              <a href="mahmoudadel123hb@gmail.com" class="social-icon" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+              <a href="https://www.facebook.com/share/1FQ74UFuap/" class="social-icon" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <div class="contact-form-card">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-input" placeholder="Mahmoud adel" />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-input" placeholder="hello@example.com" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Subject</label>
+              <input type="text" class="form-input" placeholder="Project Collaboration / Job Opportunity" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Message</label>
+              <textarea class="form-input form-textarea" placeholder="Tell me about your project or idea..."></textarea>
+            </div>
+            <button class="btn-send">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Send Message
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-divider"></div>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="nav-logo">
+          <span class="logo-bracket">&lt;/&gt;</span>
+          <span class="logo-text">MA.</span>
+        </a>
+        <p class="footer-bio">Frontend Developer passionate about building beautiful, responsive, and performant web interfaces with modern technologies.</p>
+      </div>
+      <div class="footer-links">
+        <h4 class="footer-heading">Quick Links</h4>
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <a href="#home" class="footer-link">Home</a>
+            <a href="#skills" class="footer-link">Skills</a>
+            <a href="#experience" class="footer-link">Experience</a>
+          </div>
+          <div class="footer-col">
+            <a href="#about" class="footer-link">About</a>
+            <a href="#projects" class="footer-link">Projects</a>
+            <a href="#contact" class="footer-link">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-specs">
+        <h4 class="footer-heading">Specializations</h4>
+        <p class="spec-item">→ React &amp; Next.js</p>
+        <p class="spec-item">→ Bootstrap CSS</p>
+        <p class="spec-item">→ Responsive Design</p>
+        <p class="spec-item">→ UI/UX Design</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-credit">Designed &amp; Developed by <a href="#" class="text-cyan">Mahmoud adel</a></p>
+      <p class="footer-made">Made with ❤ &amp; &lt;Code /&gt;</p>
+      <p class="footer-copy">© 2026 All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
